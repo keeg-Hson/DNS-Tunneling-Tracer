@@ -39,7 +39,7 @@ At its core, DNS tunneling as a data extraction method is extremely query heavy:
 </ul>
 
 <h2>Domain-based Features</h2>
-Next, with DNS tunneling being domain top heavy this makes this area yet another one critical for further inspection. given that in order to perform such a maneuver, attackers need to register new domain names that are often questionably named (ie: mimicking trusted URLs), this poses yet another node to map out more fully. It is also critical to note along with this that tunnel traffic will often petetrate one sketchy domain in specific with endless and unique subdomains, so this too poses a patterns worth further investigating. On the parallel, legitimate DNS traffic mostly gets channeled to domains that are both aged and well established all around. These two areas are critical to build around to map the domain based area further.
+Next, DNS tunneling being domain top heavy makes this an area critical for further inspection. given that in order to perform such a maneuver, attackers need to register new domain names that are often questionably named (ie: mimicking trusted URLs), this poses yet another node to map out more fully. It is also critical to note along with this that tunnel traffic will often petetrate one sketchy domain in specific with endless and unique subdomains, so this too poses a patterns worth further investigating. On the parallel, legitimate DNS traffic mostly gets channeled to domains that are both aged and well established all around. These two areas are critical to build around to map the domain based area further.
 
 <h4>Potential Features:</h4>
 <ul>
@@ -49,9 +49,9 @@ Next, with DNS tunneling being domain top heavy this makes this area yet another
 </ul>
 
 <h2>Traffic-based Features</h2>
-As well, given that we are fundamentally dealing with network traffic and catching anomalies, this raises a checkpoint in which we can investigate better what typical (or atypical) DNS network traffic actually looks like. 
+As well, given that we are fundamentally dealing with catching anomalies in network traffic, this raises a checkpoint in which we can investigate to better understand what typical (or atypical) DNS network traffic actually looks like. 
 
-Human beings browse web pages in large bursts over set time intervals, with most traffic following a typical daily trend pattern of some sort. Malware however, saps information in a sturdy and methodical fashion over an automated interval (ie: noteworthy traffic patterns occuring every weekday at 3am would warrant investigation). Ultimately, both traffic and vollume in this case are critical pillars (features) that can reveal what exactly the automation domain look like
+Human beings browse web pages in large bursts over set time intervals, with most traffic following a typical daily trend pattern of some sort. Malware however, saps information in a sturdy and methodical fashion over an automated interval (ie: noteworthy traffic patterns occuring every weekday at 3am would warrant investigation). Ultimately, both traffic and volume in this case are critical pillars (features) that can reveal what patterns in the automation domain look like.
 
 <h4>Potential Features:</h4>
 <ul>
